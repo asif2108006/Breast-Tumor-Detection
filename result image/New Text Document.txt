@@ -1,0 +1,22 @@
+Breast Ultrasound Image Analysis - Results and Insights!
+
+I recently worked on a Breast Ultrasound Images Dataset, which contains 780 labeled ultrasound images of breast tissue, categorized into three classes: Benign, Malignant, and Normal. Each image is paired with its corresponding ground truth segmentation mask, making it ideal for both classification and segmentation tasks. This dataset is a valuable resource for advancing breast cancer research and improving diagnostic accuracy.
+
+ Classification Results:
+1️⃣ Using ResNet50, I achieved 88% validation accuracy, with the following F1 scores:
+
+Benign: 90%
+Malignant: 84%
+Normal: 90%
+2️⃣ I also experimented with a basic CNN, but it resulted in lower validation accuracy compared to ResNet50.
+
+ Image Segmentation Results:
+1️⃣ U-Net Model:
+
+Validation Accuracy: 96%
+Trained for 80 epochs
+2️⃣ DeepLabV3+:
+
+Validation Accuracy: 94.5%
+Trained for 50 epochs
+Note: Accuracy can be further improved with additional epochs.
